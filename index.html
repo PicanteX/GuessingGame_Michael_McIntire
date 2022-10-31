@@ -6,15 +6,56 @@
     <title>Guessing Game</title>
     <link rel="stylesheet" href="main.css">
     <!-- the MAIN.CSS file is linked here -->
+    
   </head>
 
   <body>
 
+    <div class="guessStart">
+
+      <h1>Guess the Number!</h1>
+
+      <p>Choose the hidden number within 5 guesses to win the game! The hidden number will be between 1-100! </p>
+
+      <div id="playButton" class="customButton1">Guess!</div>
+
+    </div>
+
+
+    <nav>
+      <div class="pastguessesandinput">
+        <input type="number" id="guessinputBar" class="numberGuess" placeholder="Insert Guess Here!">
+        <div id= "wrongguesses" class="wrongguessesContainer">
+
+          <span id="myText"></span>
+  
+        </div>
+      </div>
+      <div class="extraContainer">
+        <button id="resetButton" class="customButton2">Play Again!</button>
+        <button id="hintButton" class="customButton2">Hint</button>
+      </div>
+
+    </nav>
+
+    <div class="heatContainer">
+      <span id="heatIndicator"></span>
+      <div class="picHeat">
+        <img id="resultimage" width="500px">
+        <!-- <img  id="cold" src="https://media.sciencephoto.com/image/c0425419/800wm/C0425419-Polar_bear_curious_young_bear_approaching_camera.jpg" width="150px">
+
+        <img  id="hot" src="https://www.centralillinoisproud.com/wp-content/uploads/sites/57/2021/09/FIRE.jpg?w=750&h=422&crop=1" width="150px">
+
+        <img  id="warm" src="https://realguymarketing.com/wp-content/uploads/2019/05/Screen-Shot-2019-05-25-at-6.09.31-PM-1080x675.png" width="150px"> -->
+      </div>
+    </div>  
 
 
 
 
-    <!-- <script src='js/guessing-game.js'></script> -->
+
+
+    <script src='js/guessing-game.js'></script>
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
   </body>
 

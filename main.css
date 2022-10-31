@@ -1,1 +1,102 @@
-/* Write your CSS code in this file */
+body {
+    background-color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guessStart {
+    text-align: center;
+    color: blue;
+    justify-items: center;
+}
+
+h1 {
+    background-color: black;
+    justify-content: center;
+    color: red;
+}
+.wrongguessesContainer {
+    margin-left: 40px;
+    color: blue;
+    font-weight: bold;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+
+}
+
+.customButton1 {
+    background-color: blue;
+    color: red;
+    font-size: 2 rem;
+    font-weight: bolder;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 20px;
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+.customButton1:hover {
+    box-shadow: -0px 1px 10px red ;
+}
+
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.pastguessesandinput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    flex-wrap: nowrap;
+    margin-left: 34%;
+    margin-bottom: 15px;
+}
+#guessinputBar {
+    min-width: 50%;
+    height: 40px;
+}
+
+.customButton2 {
+    background-color: blue;
+    color: red;
+    border: red 5px;
+    font-size: 1 rem;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;  
+}
+
+.customButton2:hover {
+    box-shadow: -0px 1px 10px red ;
+}
+
+.extraContainer {
+    margin: 0 auto;
+    align-content: center;
+
+}
+
+.heatContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.heatIndicator {
+    min-width: 400px;
+    min-height: 200px;
+    text-align: center;
+}
